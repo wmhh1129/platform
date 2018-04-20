@@ -114,6 +114,12 @@
   version "4.4.7"
   resolved "http://r.cnpmjs.org/@angular/language-service/download/@angular/language-service-4.4.7.tgz#45dea0935c132095a0fdc4610b007f1f57b8fbea"
 
+"@angular/material@2.0.0-beta.7":
+  version "2.0.0-beta.7"
+  resolved "http://r.cnpmjs.org/@angular/material/download/@angular/material-2.0.0-beta.7.tgz#2584aaf1ffbe24779916345f1ac82921ccbc2577"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^4.0.0":
   version "4.4.7"
   resolved "http://r.cnpmjs.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-4.4.7.tgz#c10676f49de5ac604e326cba440ff6a6af6588fe"
