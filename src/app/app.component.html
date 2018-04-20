@@ -1,14 +1,18 @@
-<div class="site">
-  <header>
-    <app-header></app-header>
-  </header>
-  <main>
-    <div></div>
-    <div></div>
-    <div></div>
-  </main>
-  <footer>
-    <app-footer></app-footer>
-  </footer>
-</div>
+<md-sidenav-container>
+  <md-sidenav #sidenav>
+    <app-sidebar></app-sidebar>
+  </md-sidenav>
+  <div class="site">
+    <header>
+      <app-header (toggle)="sidenav.toggle()"></app-header>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </div>
+</md-sidenav-container>
+
 
