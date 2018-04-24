@@ -4,6 +4,7 @@ import { MdSidenavModule } from '@angular/material'
 import { CoreModule } from './core/core.module'
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module'
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     MdSidenavModule,
-    CoreModule
+    CoreModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
