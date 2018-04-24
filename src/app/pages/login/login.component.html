@@ -1,17 +1,42 @@
+<form>
 <md-card>
   <md-card-header>
     <md-card-title>登录：</md-card-title>
   </md-card-header>
 
   <md-card-content>
-    <md-input-container>
+    <md-input-container class="full-width">
       <input mdInput type="text" placeholder="您的email">
     </md-input-container>
+    <md-input-container class="full-width">
+      <input mdInput type="password" placeholder="您的密码">
+    </md-input-container>
+    <!--在form元素当中,要指定button类型,否则会被视为submit-->
+    <button md-raised-button type="button">登录</button>
 
   </md-card-content>
 
-  <md-card-actions>
+  <md-card-actions class="text-right">
     <p>还没有账户？<a href="">注册</a></p>
     <p>忘记密码？<a href="">找回</a></p>
   </md-card-actions>
 </md-card>
+
+  <md-card>
+    <md-card-header>
+      <md-card-title>
+        每日佳句
+      </md-card-title>
+      <md-card-subtitle>
+        啦啦啦啦啦
+      </md-card-subtitle>
+    </md-card-header>
+
+    <img md-card-image="" src="" alt="">
+
+    <md-card-content>
+      please speak English！
+    </md-card-content>
+
+  </md-card>
+</form>

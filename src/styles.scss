@@ -11,6 +11,10 @@ html, body, app-root, md-sidenav-container, .site {
   flex-direction: column;
 }
 
+.full-width {
+  width: 100%;
+}
+
 main {
   flex: 1;
 }
